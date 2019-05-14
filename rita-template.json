@@ -1,1 +1,69 @@
-Template 
+{
+  "template" : "rita-*",
+  "version" : 60001,
+  "settings" : {
+    "index.refresh_interval" : "5s"
+  },
+  "mappings" : {
+    "doc" : {
+      "dynamic_templates" : [ {
+        "message_field" : {
+          "path_match" : "message",
+          "match_mapping_type" : "string",
+          "mapping" : {
+            "type" : "text",
+            "norms" : false
+          }
+        }
+      }, {
+        "string_fields" : {
+          "match" : "*",
+          "match_mapping_type" : "string",
+          "mapping" : {
+            "type" : "text", "norms" : false,
+            "fields" : {
+              "keyword" : { "type": "keyword", "ignore_above": 256 }
+            }
+          }
+        }
+      } ],
+      "properties" : {
+        "@timestamp": { "type": "date"},
+        "@version": { "type": "keyword"},
+        "Destination IP": {"type": "ip" },
+        "Source IP" : {"type": "ip"},
+        "IP": {"type": "ip"},
+        "Score": {"type": "float"},
+        "Connections": {"type": "float"},
+        "Avg Bytes": {"type": "float"},
+        "Intvl Range": {"type": "float"},
+        "Size Range": {"type": "float"},
+        "Top Intvl": {"type": "float"},
+        "Top Size": {"type": "float"},
+        "Top Intvl Count": {"type": "float"},
+        "Top Size Count": {"type": "float"},
+        "Intvl Skew": {"type": "float"},
+        "Size Skew": {"type": "float"},
+        "Intvl Dispersion": {"type": "float"},
+        "Times Used": {"type": "float"},
+        "Total Bytes": {"type": "float"},
+        "Times Looked Up": {"type": "float"},
+        "Unique Subdomains": {"type": "float"},
+        "Unique Connections": {"type": "float"},
+        "Duration": {"type": "float"},
+        "Size Dispersion": {"type": "float"},
+        "geoip"  : {
+          "dynamic": true,
+          "properties" : {
+            "ip": { "type": "ip" },
+            "location" : { "type" : "geo_point" },
+            "latitude" : { "type" : "half_float" },
+            "longitude" : { "type" : "half_float" },
+            "Source" : { "type" : "ip" },
+            "Destination" : { "type" : "ip" }
+          }
+        }
+      }
+    }
+  }
+}
