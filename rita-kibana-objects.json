@@ -6,12 +6,12 @@
       "title": "RITA",
       "hits": 0,
       "description": "Description ",
-      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":35,\"y\":13,\"w\":13,\"h\":7,\"i\":\"1\"},\"id\":\"6d4dd3f0-753e-11e9-baf7-1dd40e632cc1\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":10,\"y\":0,\"w\":27,\"h\":13,\"i\":\"2\"},\"id\":\"f05c3e30-753e-11e9-baf7-1dd40e632cc1\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":37,\"y\":0,\"w\":11,\"h\":13,\"i\":\"3\"},\"id\":\"fbdd4590-7540-11e9-baf7-1dd40e632cc1\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":13,\"i\":\"4\"},\"id\":\"805096d0-778d-11e9-8e48-a75af9fd7a91\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"gridData\":{\"x\":0,\"y\":13,\"w\":35,\"h\":16,\"i\":\"5\"},\"version\":\"6.7.2\",\"panelIndex\":\"5\",\"type\":\"visualization\",\"id\":\"c3bdf440-7791-11e9-8e48-a75af9fd7a91\",\"embeddableConfig\":{}}]",
+      "panelsJSON": "[{\"embeddableConfig\":{},\"gridData\":{\"x\":35,\"y\":14,\"w\":13,\"h\":6,\"i\":\"1\"},\"id\":\"6d4dd3f0-753e-11e9-baf7-1dd40e632cc1\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":10,\"y\":0,\"w\":27,\"h\":14,\"i\":\"2\"},\"id\":\"f05c3e30-753e-11e9-baf7-1dd40e632cc1\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":37,\"y\":0,\"w\":11,\"h\":7,\"i\":\"3\"},\"id\":\"fbdd4590-7540-11e9-baf7-1dd40e632cc1\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":0,\"w\":10,\"h\":14,\"i\":\"4\"},\"id\":\"805096d0-778d-11e9-8e48-a75af9fd7a91\",\"panelIndex\":\"4\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":0,\"y\":14,\"w\":35,\"h\":18,\"i\":\"5\"},\"id\":\"c3bdf440-7791-11e9-8e48-a75af9fd7a91\",\"panelIndex\":\"5\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"embeddableConfig\":{},\"gridData\":{\"x\":37,\"y\":7,\"w\":11,\"h\":7,\"i\":\"6\"},\"id\":\"c9134d30-7b7b-11e9-8e48-a75af9fd7a91\",\"panelIndex\":\"6\",\"type\":\"visualization\",\"version\":\"6.7.2\"},{\"gridData\":{\"x\":35,\"y\":20,\"w\":13,\"h\":6,\"i\":\"7\"},\"version\":\"6.7.2\",\"panelIndex\":\"7\",\"type\":\"visualization\",\"id\":\"24d4a710-7b7f-11e9-9a1e-17b240d913a2\",\"embeddableConfig\":{}},{\"gridData\":{\"x\":35,\"y\":26,\"w\":13,\"h\":6,\"i\":\"8\"},\"version\":\"6.7.2\",\"panelIndex\":\"8\",\"type\":\"visualization\",\"id\":\"cd62a2c0-7b7e-11e9-9a1e-17b240d913a2\",\"embeddableConfig\":{}}]",
       "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
       "version": 1,
       "timeRestore": false,
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"negate\":true,\"disabled\":true,\"alias\":null,\"type\":\"phrase\",\"key\":\"tags\",\"value\":\"rita-whitelist\",\"params\":{\"query\":\"rita-whitelist\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"tags\":{\"query\":\"rita-whitelist\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"$state\":{\"store\":\"appState\"},\"meta\":{\"alias\":null,\"disabled\":true,\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"key\":\"tags\",\"negate\":true,\"params\":{\"query\":\"rita-whitelist\",\"type\":\"phrase\"},\"type\":\"phrase\",\"value\":\"rita-whitelist\"},\"query\":{\"match\":{\"tags\":{\"query\":\"rita-whitelist\",\"type\":\"phrase\"}}}}]}"
       }
     }
   },
@@ -193,16 +193,50 @@
     }
   },
   {
-    "_id": "f05c3e30-753e-11e9-baf7-1dd40e632cc1",
+    "_id": "c3bdf440-7791-11e9-8e48-a75af9fd7a91",
     "_type": "visualization",
     "_source": {
-      "title": "RITA Information",
-      "visState": "{\"title\":\"RITA Information\",\"type\":\"markdown\",\"params\":{\"fontSize\":12,\"markdown\":\"![alt text](https://www.activecountermeasures.com/wp-content/uploads/2018/12/acm_rita_icon.png \\\"Logo Title Text 1\\\")\\n\\n# RITA (Real Intelligence Threat Analytics)\\n\\nBrought to you by [Active Countermeasures](https://www.activecountermeasures.com/).\",\"openLinksInNewTab\":false},\"aggs\":[]}",
+      "title": "RITA Locations",
+      "visState": "{\"title\":\"RITA Locations\",\"type\":\"tile_map\",\"params\":{\"colorSchema\":\"Yellow to Red\",\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"selectedTmsLayer\":{\"origin\":\"elastic_maps_service\",\"id\":\"road_map\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"https://www.openstreetmap.org/copyright\\\">OpenStreetMap contributors</a>|<a href=\\\"https://openmaptiles.org\\\">OpenMapTiles</a>|<a href=\\\"https://www.maptiler.com\\\">MapTiler</a>|<a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\"}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"mapZoom\":2,\"mapCenter\":[0,0],\"precision\":2}}]}",
       "uiStateJSON": "{}",
       "description": "",
       "version": 1,
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+        "searchSourceJSON": "{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "cd62a2c0-7b7e-11e9-9a1e-17b240d913a2",
+    "_type": "visualization",
+    "_source": {
+      "title": "RITA Critical Beacons",
+      "visState": "{\"title\":\"RITA Critical Beacons\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":0.8}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"Destination IP\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[{\"meta\":{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"type\",\"value\":\"rita-beacon\",\"params\":{\"query\":\"rita-beacon\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"type\":{\"query\":\"rita-beacon\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"range\",\"key\":\"Score\",\"value\":\"0.8 to 1\",\"params\":{\"gte\":0.8,\"lt\":1}},\"range\":{\"Score\":{\"gte\":0.8,\"lt\":1}},\"$state\":{\"store\":\"appState\"}}]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "24d4a710-7b7f-11e9-9a1e-17b240d913a2",
+    "_type": "visualization",
+    "_source": {
+      "title": "RITA Beacon Score Distribution ",
+      "visState": "{\"title\":\"RITA Beacon Score Distribution \",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"isDonut\":true,\"labels\":{\"show\":false,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"range\",\"schema\":\"segment\",\"params\":{\"field\":\"Score\",\"ranges\":[{\"from\":0,\"to\":0.5},{\"from\":0.5,\"to\":0.79},{\"from\":0.8,\"to\":1}]}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"type\",\"value\":\"rita-beacon\",\"params\":{\"query\":\"rita-beacon\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"type\":{\"query\":\"rita-beacon\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
       }
     },
     "_migrationVersion": {
@@ -227,16 +261,33 @@
     }
   },
   {
-    "_id": "c3bdf440-7791-11e9-8e48-a75af9fd7a91",
+    "_id": "f05c3e30-753e-11e9-baf7-1dd40e632cc1",
     "_type": "visualization",
     "_source": {
-      "title": "RITA Locations",
-      "visState": "{\"title\":\"RITA Locations\",\"type\":\"tile_map\",\"params\":{\"colorSchema\":\"Yellow to Red\",\"mapType\":\"Scaled Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatClusterSize\":1.5,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"options\":{\"format\":\"image/png\",\"transparent\":true},\"selectedTmsLayer\":{\"origin\":\"elastic_maps_service\",\"id\":\"road_map\",\"minZoom\":0,\"maxZoom\":18,\"attribution\":\"<p>&#169; <a href=\\\"https://www.openstreetmap.org/copyright\\\">OpenStreetMap contributors</a>|<a href=\\\"https://openmaptiles.org\\\">OpenMapTiles</a>|<a href=\\\"https://www.maptiler.com\\\">MapTiler</a>|<a href=\\\"https://www.elastic.co/elastic-maps-service\\\">Elastic Maps Service</a></p>&#10;\"}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"geoip.location\",\"autoPrecision\":true,\"isFilteredByCollar\":true,\"useGeocentroid\":true,\"mapZoom\":2,\"mapCenter\":[0,0],\"precision\":2}}]}",
+      "title": "RITA Information",
+      "visState": "{\"title\":\"RITA Information\",\"type\":\"markdown\",\"params\":{\"fontSize\":12,\"markdown\":\"![alt text](https://www.activecountermeasures.com/wp-content/uploads/2018/12/acm_rita_icon.png \\\"Logo Title Text 1\\\")\\n\\n# RITA (Real Intelligence Threat Analytics)\\n\\nBrought to you by [Active Countermeasures](https://www.activecountermeasures.com/).\",\"openLinksInNewTab\":false},\"aggs\":[]}",
       "uiStateJSON": "{}",
       "description": "",
       "version": 1,
       "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[]}"
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[]}"
+      }
+    },
+    "_migrationVersion": {
+      "visualization": "6.7.2"
+    }
+  },
+  {
+    "_id": "c9134d30-7b7b-11e9-8e48-a75af9fd7a91",
+    "_type": "visualization",
+    "_source": {
+      "title": "RITA Whitelisted IPs",
+      "visState": "{\"title\":\"RITA Whitelisted IPs\",\"type\":\"metric\",\"params\":{\"addTooltip\":true,\"addLegend\":false,\"type\":\"metric\",\"metric\":{\"percentageMode\":false,\"useRanges\":false,\"colorSchema\":\"Green to Red\",\"metricColorMode\":\"None\",\"colorsRange\":[{\"from\":0,\"to\":10000}],\"labels\":{\"show\":true},\"invertColors\":false,\"style\":{\"bgFill\":\"#000\",\"bgColor\":false,\"labelColor\":false,\"subText\":\"\",\"fontSize\":60}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"cardinality\",\"schema\":\"metric\",\"params\":{\"field\":\"Destination IP\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"query\":{\"query\":\"\",\"language\":\"lucene\"},\"filter\":[{\"meta\":{\"index\":\"65f75390-7464-11e9-baf7-1dd40e632cc1\",\"negate\":false,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"tags\",\"value\":\"rita-whitelist\",\"params\":{\"query\":\"rita-whitelist\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"tags\":{\"query\":\"rita-whitelist\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}]}"
       }
     },
     "_migrationVersion": {
